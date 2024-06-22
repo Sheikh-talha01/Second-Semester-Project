@@ -32,3 +32,4 @@ df.head(2)
 df.tail(2)
 
 # for statistical analysis of columns having numerical values then .describe()  function is used
+df.describe()
