@@ -8,6 +8,7 @@ dict1 = {
     "Marks" : [9,8,9,3,6,10]
 }
 
+# DataFrame() function will convert simple data to datasheet
 df = pd.DataFrame(dict1)
 df
 
@@ -18,17 +19,14 @@ df
 df.to_csv('friends.csv')
 
 # if we don't want first column then
-
 df.to_csv('friends_index_false.csv' , index = False) 
 # F in False must be capital in python
 
 # wanna see starting two rows then  .head()  function is used
 # Often used when data is too large like more than 100 rows and then we wanna see starting some rows
-
 df.head(2)
 
 # Wanna see ending rows of given dataset then .tail()  function is used
-
 df.tail(2)
 
 # for statistical analysis of columns having numerical values then .describe()  function is used
