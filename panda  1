@@ -16,3 +16,5 @@ df
 
 #import data to MS Excel datasheet
 df.to_csv('friends.csv')
+
+# if we don't want first column then
