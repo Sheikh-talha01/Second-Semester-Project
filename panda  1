@@ -13,3 +13,6 @@ df
 
 # csv  stands for comma separated values
 # csv files is sheet of comma sepated values 
+
+#import data to MS Excel datasheet
+df.to_csv('friends.csv')
