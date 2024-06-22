@@ -18,3 +18,6 @@ df
 df.to_csv('friends.csv')
 
 # if we don't want first column then
+
+df.to_csv('friends_index_false.csv' , index = False) 
+# F in False must be capital in python
