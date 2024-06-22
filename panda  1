@@ -1,3 +1,9 @@
 # this repo includes all the code related to panda library in Python
 import numpy as np
 import pandas as pd
+
+dict1 = {
+    "Name" : ["Talha", "Ali" , " Hassan", "Usman", "Faiz" , "Kaleem" ],
+    "Age" : [20, 19, 21,23,24,17] , 
+    "Marks" : [9,8,9,3,6,10]
+}
