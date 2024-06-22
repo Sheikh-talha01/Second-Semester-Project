@@ -24,3 +24,5 @@ df.to_csv('friends_index_false.csv' , index = False)
 
 # wanna see starting two rows then  .head()  function is used
 # Often used when data is too large like more than 100 rows and then we wanna see starting some rows
+
+df.head(2)
