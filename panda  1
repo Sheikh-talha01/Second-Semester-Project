@@ -30,3 +30,5 @@ df.head(2)
 # Wanna see ending rows of given dataset then .tail()  function is used
 
 df.tail(2)
+
+# for statistical analysis of columns having numerical values then .describe()  function is used
