@@ -10,3 +10,6 @@ dict1 = {
 
 df = pd.DataFrame(dict1)
 df
+
+# csv  stands for comma separated values
+# csv files is sheet of comma sepated values 
