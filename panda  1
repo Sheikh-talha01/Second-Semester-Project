@@ -26,3 +26,5 @@ df.to_csv('friends_index_false.csv' , index = False)
 # Often used when data is too large like more than 100 rows and then we wanna see starting some rows
 
 df.head(2)
+
+# Wanna see ending rows of given dataset then .tail()  function is used
