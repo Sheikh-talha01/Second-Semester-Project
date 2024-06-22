@@ -28,3 +28,5 @@ df.to_csv('friends_index_false.csv' , index = False)
 df.head(2)
 
 # Wanna see ending rows of given dataset then .tail()  function is used
+
+df.tail(2)
