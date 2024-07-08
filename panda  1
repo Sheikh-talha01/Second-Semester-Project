@@ -30,5 +30,11 @@ df.head(2)
 # Wanna see ending rows of given dataset then .tail()  function is used
 df.tail(2)
 
+# to read data from csv sheet then
+#   pd.read_csv('filename.csv')
+# Example
+b = pd.read_csv('sheikh_.csv')
+b = pd.read_csv('sheikh_.csv')
+
 # for statistical analysis of columns having numerical values then .describe()  function is used
 df.describe()
