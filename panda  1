@@ -9,6 +9,7 @@ dict1 = {
 }
 
 # DataFrame() function will convert simple data to datasheet
+# DataFrame must be in camel format
 df = pd.DataFrame(dict1)
 df
 
