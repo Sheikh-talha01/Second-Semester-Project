@@ -21,6 +21,10 @@ df.to_csv('friends.csv')
 
 # if we don't want first column then
 df.to_csv('friends_index_false.csv' , index = False) 
+# first column (serial No ) will be accessed by index = 
+
+# we can access values of any column by column name and can access row by index number
+
 # F in False must be capital in python
 
 # wanna see starting two rows then  .head()  function is used
@@ -38,3 +42,5 @@ b = pd.read_csv('sheikh_.csv')
 
 # for statistical analysis of columns having numerical values then .describe()  function is used
 df.describe()
+
+
