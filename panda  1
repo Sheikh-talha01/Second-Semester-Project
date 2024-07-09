@@ -1,4 +1,4 @@
-# this repo includes all the code related to panda library in Python
+# this repo includes all the code related to Pandas library in Python
 
 import numpy as np
 import pandas as pd
